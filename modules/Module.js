@@ -3,9 +3,9 @@ var pins = 0;
 var imageArray = new Array();
 
 function imageLocation(){
-  	imgSlide = {dataId1:"Img1", src:kony.application.getCurrentForm().Camera1.rawBytes};
+  	dataObj1 = {globaDdataId1:"Img1", src:kony.application.getCurrentForm().Camera1.rawBytes};
 	//addAt method call ,adding the above row at 15th index position.
-	kony.application.getCurrentForm().carousel1.addDataAt(imgSlide,1);
+	kony.application.getCurrentForm().carousel1.addDataAt(dataObj1,0);	
   	imageArray.push(kony.application.getCurrentForm().Camera1.rawBytes);
   	saveLocation();
 }
