@@ -13,12 +13,6 @@
             "KUID": "ice8aab2e85f46269dca3e26c25e2b91"
         },
         "language": "js",
-        "actions": [{
-            "id": "ADD_SNIPPET__b5969afcb6db4ab8996b513b59a30e53",
-            "type": "ADD_SNIPPET",
-            "codeSnippet": "",
-            "parentId": null,
-            "callbackType": null
-        }]
+        "actions": []
     }
 }

@@ -41,11 +41,8 @@
     },
     "canUpdateUI": true,
     "children": [
-        "headerTitleLabel",
-        "headerIconRight",
         "hamburgerIconContainer",
         "headerButtonLeft",
-        "headerButtonRight",
         "cameraContainer"
     ],
     "clipbounds": true,

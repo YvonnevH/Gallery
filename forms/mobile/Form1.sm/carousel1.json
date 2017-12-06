@@ -7,7 +7,7 @@
         {
             "imgSlide": {
                 "@class": "com.viz.ide.model.segment.ImageSegmentData",
-                "src": "imagedrag.png"
+                "src": "kony_mp_carousel1_slides1.png"
             }
         }
     ],
@@ -104,7 +104,6 @@
     },
     "name": "kony.ui.SegmentedUI2",
     "needpageindicator": false,
-    "onpush": "AS_Segment_j6707ad07d494866897aa47e3b3208de",
     "onswipe": "AS_Segment_ed30a31a682244a8b2c740ee5eb78bcf",
     "pageoffdotimage": "pageoffdot.png",
     "pageondotimage": "pageondot.png",
