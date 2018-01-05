@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        27,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6c81f0bd15c439395f974ff8a254fc7",
+    "_text_": "Back",
+    "_width_": {
+        "type": "string",
+        "value": "18%"
+    },
+    "android": {
+        "displayText": false
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": false,
+    "focusskin": "s0696c3010af4a22814c5ede15ab175c",
+    "id": "headerButtonLeft",
+    "info": null,
+    "iphone": {
+        "padding": [
+            27,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": true
+    },
+    "isvisible": true,
+    "kuid": "be4e9c59bc144c3598af591c0e42e3fd",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_hd5394fda78b4146b37262bc2003da42",
+    "paddingLocked": false,
+    "paddinginpixel": false,
+    "parent": "headerContainer",
+    "pf": "Map1",
+    "wType": "Button",
+    "zindex": 1
+}

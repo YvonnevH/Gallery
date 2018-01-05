@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "7.50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8870dc4155e48adadf8ce9293eb33e8",
+    "_text_": "HOME",
+    "_top_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "s34832d4edc046ccbbe9c4e66a7d55e9",
+    "id": "HOME",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ibcae74920654b63a3b80ed54939eef4",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_de99979a4e9d4003ac648c242e520ded",
+    "parent": "Menu",
+    "pf": "Map1",
+    "wType": "Button",
+    "zindex": 1
+}

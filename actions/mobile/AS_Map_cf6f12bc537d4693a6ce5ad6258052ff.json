@@ -1,0 +1,27 @@
+{
+    "AS_Map_cf6f12bc537d4693a6ce5ad6258052ff": {
+        "id": "AS_Map_cf6f12bc537d4693a6ce5ad6258052ff",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "location"
+        }],
+        "contextObj": {
+            "name": "Map1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ba11b89b394d44779d718ebb178e1eaf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__h1062305d57a4dd1bdcf581e059262d0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "pinClicked();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

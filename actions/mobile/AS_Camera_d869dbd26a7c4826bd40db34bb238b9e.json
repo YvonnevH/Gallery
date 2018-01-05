@@ -1,0 +1,27 @@
+{
+    "AS_Camera_d869dbd26a7c4826bd40db34bb238b9e": {
+        "id": "AS_Camera_d869dbd26a7c4826bd40db34bb238b9e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CopyFolder1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gd41405d29e34dbb937abd496fbeed8b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onCapture_d3591b8b738c45dbb53d268726363808",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "imageLocation",
+            "display": "imageLocation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

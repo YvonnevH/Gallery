@@ -1,0 +1,21 @@
+{
+    "AS_Camera_i632ed1156064419b20c16825cd5336e": {
+        "id": "AS_Camera_i632ed1156064419b20c16825cd5336e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onCapture_hddd9ebed6af4bcca661bc864b14a097",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "imageLocation",
+            "display": "imageLocation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

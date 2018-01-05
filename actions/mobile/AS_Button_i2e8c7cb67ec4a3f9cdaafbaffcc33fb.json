@@ -1,0 +1,23 @@
+{
+    "AS_Button_i2e8c7cb67ec4a3f9cdaafbaffcc33fb": {
+        "id": "AS_Button_i2e8c7cb67ec4a3f9cdaafbaffcc33fb",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CopyFolder1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gd41405d29e34dbb937abd496fbeed8b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_cb8d9b457e7c4bd68c7ef69ca0681966",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(saved==false){\n  alert(\"Wait until all image locations are saved\");\n} else {\n  var ntf = new kony.mvc.Navigation(\"Home\");\n  ntf.navigate();\n};",
+            "callbackType": null
+        }]
+    }
+}

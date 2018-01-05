@@ -1,0 +1,20 @@
+{
+    "AS_TextField_g4d96e0621734a6aaf5fd8287cc9f19a": {
+        "id": "AS_TextField_g4d96e0621734a6aaf5fd8287cc9f19a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onDone_cad9844d9c964ec481a695104bb3a57a",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.getCurrentForm().nameFolder1.text = kony.application.getCurrentForm().FolderName.text;",
+            "callbackType": null
+        }]
+    }
+}

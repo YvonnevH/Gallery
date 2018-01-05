@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s70eb6edadad4da2b8116eac435b4d97",
+    "_text_": "Map",
+    "_top_": {
+        "type": "string",
+        "value": "21%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "s34832d4edc046ccbbe9c4e66a7d55e9",
+    "id": "mapFolder1",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ia4912d00a1343949abe17cecd6efb1a",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_j26f330ebd5d43d49eb994b7be24012f",
+    "parent": "Menu",
+    "pf": "Map1",
+    "wType": "Button",
+    "zindex": 1
+}

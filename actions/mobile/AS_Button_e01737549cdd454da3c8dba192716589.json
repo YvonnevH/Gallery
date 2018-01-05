@@ -1,0 +1,17 @@
+{
+    "AS_Button_e01737549cdd454da3c8dba192716589": {
+        "id": "AS_Button_e01737549cdd454da3c8dba192716589",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_dda49b3a8d2b480490130081b302b070",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (kony.application.getCurrentForm().Menu.isVisible == true){\n  kony.application.getCurrentForm().Menu.isVisible = false;\n}else{\n  kony.application.getCurrentForm().Menu.isVisible = true;\n};",
+            "callbackType": null
+        }]
+    }
+}

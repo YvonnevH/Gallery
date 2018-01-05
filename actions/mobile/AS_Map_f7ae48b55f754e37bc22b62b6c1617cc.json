@@ -1,0 +1,21 @@
+{
+    "AS_Map_f7ae48b55f754e37bc22b62b6c1617cc": {
+        "id": "AS_Map_f7ae48b55f754e37bc22b62b6c1617cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onMapLoaded_eb22d6f5e06f42c78518202e79ee77a0",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadMap",
+            "display": "loadMap",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

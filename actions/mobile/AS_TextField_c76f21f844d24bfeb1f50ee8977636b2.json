@@ -1,0 +1,21 @@
+{
+    "AS_TextField_c76f21f844d24bfeb1f50ee8977636b2": {
+        "id": "AS_TextField_c76f21f844d24bfeb1f50ee8977636b2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "CopyFolder1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gd41405d29e34dbb937abd496fbeed8b"
+        },
+        "language": "js",
+        "actions": []
+    }
+}

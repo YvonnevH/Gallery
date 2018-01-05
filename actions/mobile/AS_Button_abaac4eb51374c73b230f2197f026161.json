@@ -1,0 +1,23 @@
+{
+    "AS_Button_abaac4eb51374c73b230f2197f026161": {
+        "id": "AS_Button_abaac4eb51374c73b230f2197f026161",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "CopyFolder1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "gd41405d29e34dbb937abd496fbeed8b"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_b8254339f24e4d44a152052639dde413",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (kony.application.getCurrentForm().Menu.isVisible == true){\n  kony.application.getCurrentForm().Menu.isVisible = false;\n}else{\n  kony.application.getCurrentForm().Menu.isVisible = true;\n};",
+            "callbackType": null
+        }]
+    }
+}

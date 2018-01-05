@@ -1,0 +1,28 @@
+{
+    "AS_Map_fa14405af69643b9bf0d5cc1860e335b": {
+        "id": "AS_Map_fa14405af69643b9bf0d5cc1860e335b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Folder1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ice8aab2e85f46269dca3e26c25e2b91"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___bf13effa335049f1a4ec7c28a96673d6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadMap",
+            "display": "loadMap",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

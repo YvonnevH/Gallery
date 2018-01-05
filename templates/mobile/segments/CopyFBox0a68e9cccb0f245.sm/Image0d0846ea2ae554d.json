@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "153dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s04ca56a3b01403d8b06016e51b17a67",
+    "_src_": "imagedrag.png",
+    "_top_": {
+        "type": "string",
+        "value": "22dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "150dp"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "android",
+        "templateType": "segments",
+        "topLevelBox": true
+    },
+    "id": "Image0d0846ea2ae554d",
+    "imagescalemode": 1,
+    "info": null,
+    "isvisible": true,
+    "kuid": "a68e77f550cc46e1af374eea6370db0d",
+    "name": "kony.ui.Image2",
+    "parent": "CopyFBox0a68e9cccb0f245",
+    "pf": "CopyFBox0a68e9cccb0f245",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

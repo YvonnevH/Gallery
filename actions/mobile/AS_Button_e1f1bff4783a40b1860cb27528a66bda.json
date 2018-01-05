@@ -1,0 +1,17 @@
+{
+    "AS_Button_e1f1bff4783a40b1860cb27528a66bda": {
+        "id": "AS_Button_e1f1bff4783a40b1860cb27528a66bda",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_d19e5660ae254c27ab490c12b6234fd8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(saved==false){\n  alert(\"Wait until all image locations are saved\");\n} else {\n  var ntf = new kony.mvc.Navigation(\"Folder1\");\n  ntf.navigate();\n};",
+            "callbackType": null
+        }]
+    }
+}

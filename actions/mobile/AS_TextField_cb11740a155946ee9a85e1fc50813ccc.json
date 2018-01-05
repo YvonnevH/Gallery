@@ -1,0 +1,27 @@
+{
+    "AS_TextField_cb11740a155946ee9a85e1fc50813ccc": {
+        "id": "AS_TextField_cb11740a155946ee9a85e1fc50813ccc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "contextObj": {
+            "name": "Folder1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ice8aab2e85f46269dca3e26c25e2b91"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__d898ed6aff5d40c386c831594801c036",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "kony.application.getCurrentForm().nameFolder1.text = kony.application.getCurrentForm().FolderName.text;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

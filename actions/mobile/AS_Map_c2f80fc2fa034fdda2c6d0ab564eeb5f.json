@@ -1,0 +1,27 @@
+{
+    "AS_Map_c2f80fc2fa034fdda2c6d0ab564eeb5f": {
+        "id": "AS_Map_c2f80fc2fa034fdda2c6d0ab564eeb5f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Home",
+            "type": "forms",
+            "platform": null,
+            "KUID": "de220e1c4e514930a77d98b10d7c9986"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onMapLoaded_ce9f6af657f640d8976b4c74555d069b",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "loadMap",
+            "display": "loadMap",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

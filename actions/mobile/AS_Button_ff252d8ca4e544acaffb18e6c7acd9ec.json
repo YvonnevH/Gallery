@@ -1,0 +1,24 @@
+{
+    "AS_Button_ff252d8ca4e544acaffb18e6c7acd9ec": {
+        "id": "AS_Button_ff252d8ca4e544acaffb18e6c7acd9ec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Folder1",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ice8aab2e85f46269dca3e26c25e2b91"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET__e548dd1064f441a194c8c8bb294f1728",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if (kony.application.getCurrentForm().Menu.isVisible == true){\n  kony.application.getCurrentForm().Menu.isVisible = false;\n}else{\n  kony.application.getCurrentForm().Menu.isVisible = true;\n};",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

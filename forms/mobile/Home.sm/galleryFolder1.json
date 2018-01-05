@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20.00%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s9b875a2a6b44a87b2af9cfbf09c33cf",
+    "_text_": "Gallery",
+    "_top_": {
+        "type": "string",
+        "value": "15.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "displaytext": true,
+    "focusskin": "s34832d4edc046ccbbe9c4e66a7d55e9",
+    "id": "galleryFolder1",
+    "info": null,
+    "isvisible": true,
+    "kuid": "cf1447b1ad9041a7ab76878c7f517c29",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_ec1d082f2f7e4936a14652ea25c22910",
+    "parent": "Menu",
+    "pf": "Home",
+    "wType": "Button",
+    "zindex": 1
+}

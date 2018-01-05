@@ -1,0 +1,27 @@
+{
+    "AS_Camera_d246230bbb13487888fab7043bdd51f0": {
+        "id": "AS_Camera_d246230bbb13487888fab7043bdd51f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "Map1",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ba11b89b394d44779d718ebb178e1eaf"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__onCapture_dfe6a649cae6458883635515a22adb93",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "imageLocation",
+            "display": "imageLocation",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
