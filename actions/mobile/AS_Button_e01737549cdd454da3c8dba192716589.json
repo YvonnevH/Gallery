@@ -10,7 +10,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_onClick_dda49b3a8d2b480490130081b302b070",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "if (kony.application.getCurrentForm().Menu.isVisible == true){\n  kony.application.getCurrentForm().Menu.isVisible = false;\n}else{\n  kony.application.getCurrentForm().Menu.isVisible = true;\n};",
+            "codeSnippet": "if (kony.application.getCurrentForm().Menu.isVisible === true){\n  kony.application.getCurrentForm().Menu.isVisible = false;\n}else{\n  kony.application.getCurrentForm().Menu.isVisible = true;\n}",
             "callbackType": null
         }]
     }

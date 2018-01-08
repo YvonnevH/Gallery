@@ -33,15 +33,18 @@ function loadMap(){
       id: "image"+i, 
       lat: p.lat,
       lon: p.lon,
-      name: p.name
+      name: p.name,
+      showcallout: false
     };
 
     kony.application.getCurrentForm().Map0.addPin(pin);
   }
 }
 
-function pinClicked(id){
-  //alert(id);
+function pinClicked(locationdata){
+  //alert(locationdata.id);
+  kony.application.getCurrentForm().pinName.text = locationdata.id;
+  pinInfoText.text = locationdata;
 }
 
 function saveLocation(){

@@ -19,9 +19,22 @@
         "actions": [{
             "id": "ADD_SNIPPET__h1062305d57a4dd1bdcf581e059262d0",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "pinClicked();",
+            "codeSnippet": "//pinClicked(this.view.Map0.locationData);",
             "parentId": null,
             "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___c61af3fd438b48b9adab8efce3fc33d5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "pinClicked",
+            "display": "pinClicked",
+            "inputparams": [{
+                "name": "locationdata",
+                "value": " location"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
         }]
     }
 }

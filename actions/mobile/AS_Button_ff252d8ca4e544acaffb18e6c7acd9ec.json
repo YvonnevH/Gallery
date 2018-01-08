@@ -16,7 +16,7 @@
         "actions": [{
             "id": "ADD_SNIPPET__e548dd1064f441a194c8c8bb294f1728",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "if (kony.application.getCurrentForm().Menu.isVisible == true){\n  kony.application.getCurrentForm().Menu.isVisible = false;\n}else{\n  kony.application.getCurrentForm().Menu.isVisible = true;\n};",
+            "codeSnippet": "if (kony.application.getCurrentForm().Menu.isVisible === true){\n  kony.application.getCurrentForm().Menu.isVisible = false;\n}else{\n  kony.application.getCurrentForm().Menu.isVisible = true;\n}",
             "parentId": null,
             "callbackType": null
         }]

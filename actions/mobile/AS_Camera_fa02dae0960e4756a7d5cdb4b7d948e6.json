@@ -1,10 +1,16 @@
 {
-    "AS_Button_b0cb46f7473d4f029285b4f48548ef04": {
-        "id": "AS_Button_b0cb46f7473d4f029285b4f48548ef04",
+    "AS_Camera_fa02dae0960e4756a7d5cdb4b7d948e6": {
+        "id": "AS_Camera_fa02dae0960e4756a7d5cdb4b7d948e6",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
             "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
         }],
         "contextObj": {
             "name": "Folder1",
@@ -14,9 +20,9 @@
         },
         "language": "js",
         "actions": [{
-            "id": "ADD_SNIPPET__j3fad871aae9458cbeb8812731dd40c3",
+            "id": "ADD_SNIPPET__cb01fbef0a6b4b08948a3f4783034a5f",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "if(saved==false){\n  alert(\"Wait until all image locations are saved\");\n} else {\n  var ntf = new kony.mvc.Navigation(\"Map1\");\n  ntf.navigate();\n}",
+            "codeSnippet": "kony.application.getCurrentForm().Menu.isVisible = false;",
             "parentId": null,
             "callbackType": null
         }]

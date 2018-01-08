@@ -47,28 +47,28 @@ function responseFunction(){
       } 
 
       today = dd + '/' + mm + '/' + yyyy;
-	  alert(today);
+	  
       // convert result of request to json object
       var jsonString = JSON.stringify(this.response);
-
       var jsonObj = JSON.parse(jsonString);
-
+	
+      
       //Store values in global variables to be able to push them to the storage file
       weatherTemp = Math.round((jsonObj.main.temp- 273.15)*10)/10;
       weatherIcon = "http://openweathermap.org/img/w/"+jsonObj.weather[0].icon+".png";
 
-
+	  alert(weatherTemp);
       // Label0 is an area to show the values for debugging
-      kony.application.getCurrentForm().Label0.text = 
-        today + "\n" +
-        "Longitude is: " + longitude  +"\n"+ 
-        "Latitude is: "+latitude  +"\n"+ 
-        jsonObj.weather[0].description +"\n"+ 
-        "Temperature is " + weatherTemp;
-      kony.application.getCurrentForm().weatherIcon.src = weatherIcon;
+//       kony.application.getCurrentForm().Label0.text = 
+//         today + "\n" +
+//         "Longitude is: " + longitude  +"\n"+ 
+//         "Latitude is: "+latitude  +"\n"+ 
+//         jsonObj.weather[0].description +"\n"+ 
+//         "Temperature is " + weatherTemp;
+//       kony.application.getCurrentForm().weatherIcon.src = weatherIcon;
       saveValues();
     } catch (err) {
-      alert("response failed");
+      alert("response failed" +"\n"+ err);
     }
   }
 }

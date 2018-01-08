@@ -44,6 +44,7 @@
     "kuid": "hc4d6f75b7744dad9532f92af6e7e9b1",
     "name": "kony.ui.Camera",
     "oncapture": "AS_Camera_e21328adab3a49d8b143a9e208411e6f",
+    "ontouchstart": "AS_Camera_fa02dae0960e4756a7d5cdb4b7d948e6",
     "parent": "cameraContainer",
     "pf": "Folder1",
     "spaan": {

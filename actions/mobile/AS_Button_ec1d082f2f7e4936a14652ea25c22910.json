@@ -10,7 +10,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_onClick_ce758b79d96c417c820859a6f73ac63b",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "if(saved==false){\n  alert(\"Wait until all image locations are saved\");\n} else {\n  var ntf = new kony.mvc.Navigation(\"Folder1\");\n  ntf.navigate();\n};",
+            "codeSnippet": "if(saved==false){\n  alert(\"Wait until all image locations are saved\");\n} else {\n  var ntf = new kony.mvc.Navigation(\"Folder1\");\n  ntf.navigate();\n}",
             "callbackType": null
         }]
     }

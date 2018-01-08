@@ -1,6 +1,7 @@
 {
     "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
+    "_init_": "AS_Form_d1b3118ddc3c439b8aa7f1ca5cc459c3",
     "_margin_": [
         0,
         0,
@@ -27,8 +28,7 @@
     "canUpdateUI": true,
     "children": [
         "headerContainer",
-        "Menu",
-        "Button0adab19b9bc8048"
+        "Menu"
     ],
     "containerweight": 100,
     "controllerInfo": {
@@ -79,6 +79,7 @@
     "needappmenu": true,
     "paddinginpixel": false,
     "platform": "android",
+    "postshow": "AS_Form_fde72e485bf3446ea0b04542d18af8dc",
     "prevDevice": "GalaxyS5",
     "prevPlatform": "iphone",
     "retainscrollposition": false,

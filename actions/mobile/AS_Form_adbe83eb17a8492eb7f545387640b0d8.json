@@ -1,6 +1,6 @@
 {
-    "AS_Button_b0cb46f7473d4f029285b4f48548ef04": {
-        "id": "AS_Button_b0cb46f7473d4f029285b4f48548ef04",
+    "AS_Form_adbe83eb17a8492eb7f545387640b0d8": {
+        "id": "AS_Form_adbe83eb17a8492eb7f545387640b0d8",
         "type": "ACTION_SEQUENCE",
         "params": [{
             "datatype": "collection",
@@ -14,9 +14,9 @@
         },
         "language": "js",
         "actions": [{
-            "id": "ADD_SNIPPET__j3fad871aae9458cbeb8812731dd40c3",
+            "id": "ADD_SNIPPET__a6408d0d8d584c5b997074ea23f855a1",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "if(saved==false){\n  alert(\"Wait until all image locations are saved\");\n} else {\n  var ntf = new kony.mvc.Navigation(\"Map1\");\n  ntf.navigate();\n}",
+            "codeSnippet": "kony.application.getCurrentForm().Menu.isVisible = false;",
             "parentId": null,
             "callbackType": null
         }]

@@ -24,12 +24,12 @@
     "project.type": "js",
     "project_version": "sprint29",
     "referenceWidth": "375",
-    "startupformkey": "ice8aab2e85f46269dca3e26c25e2b91",
+    "startupformkey": "de220e1c4e514930a77d98b10d7c9986",
     "vendornamekey": "KonyLabs",
     "winmobileguidkey": "",
     "defaulttheme": "defaultTheme",
     "nativeContainerProperties": {
-        "isModified": true,
+        "isModified": false,
         "isEnableJSContainer": false,
         "isEnableJSContainerAndroid": false,
         "isEnableJSContaineriOS": false

@@ -10,7 +10,7 @@
         "actions": [{
             "id": "ADD_SNIPPET_onClick_cace9788fa294831ac3ac2414650e982",
             "type": "ADD_SNIPPET",
-            "codeSnippet": "newFolder();",
+            "codeSnippet": "kony.application.getCurrentForm().Menu.isVisible = false;\nnewFolder();",
             "callbackType": null
         }]
     }

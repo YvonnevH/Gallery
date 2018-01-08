@@ -3,8 +3,12 @@
     "DNDConfig": null,
     "__parentReadjusting__": false,
     "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
         "type": "string",
-        "value": "100%"
+        "value": "261dp"
     },
     "_margin_": [
         0,
@@ -18,11 +22,15 @@
         0,
         0
     ],
-    "_skin_": "sf5516324ed3464dbe7ca52a4227f8d2",
-    "_text_": "  ",
-    "_width_": {
+    "_skin_": "s0e3d9b2d05a41daaebb889a4cf73594",
+    "_text_": "",
+    "_top_": {
         "type": "string",
-        "value": "100%"
+        "value": "15dp"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -34,7 +42,7 @@
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 4,
-    "id": "Camera",
+    "id": "Save",
     "info": null,
     "ipad": {
         "psp": {
@@ -47,11 +55,11 @@
         }
     },
     "isvisible": true,
-    "kuid": "c2aee9b918e248cb8876f62c257f8008",
+    "kuid": "abbb196345ae4a3fb8eeece2ec3d2f4c",
     "masterType": 1,
     "name": "kony.ui.Label",
-    "parent": "cameraContainer",
-    "pf": "Map1",
+    "parent": "headerContainer",
+    "pf": "Folder1",
     "tooltip": "",
     "wType": "Label",
     "zindex": 1

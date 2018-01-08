@@ -37,12 +37,12 @@
     "canUpdateUI": true,
     "children": [
         "nameFolder1",
-        "FlexContainer0ba52739cff2646",
-        "CopyFlexContainer0j9b637c66aea45",
-        "mapFolder1",
+        "line1",
+        "line2",
+        "line3",
+        "homeButton",
         "galleryFolder1",
-        "CopyFlexContainer0a929570bd8d947",
-        "CopyHOME0eda340caa1934c"
+        "mapFolder1"
     ],
     "clipbounds": true,
     "containerweight": 100,

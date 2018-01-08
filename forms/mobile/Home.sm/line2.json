@@ -3,11 +3,11 @@
     "__parentReadjusting__": false,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "0.30%"
     },
     "_left_": {
         "type": "string",
-        "value": "80%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,33 +23,30 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s751df27b7084e9db4802d3c23420e4b",
+    "_skin_": "s6996e8f9e9e4e21b23ffc55bb6e74d2",
+    "_top_": {
+        "type": "string",
+        "value": "9%"
+    },
     "_width_": {
         "type": "string",
-        "value": "17%"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
-    "children": [
-        "Camera1",
-        "Camera"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "cameraContainer",
+    "id": "line2",
     "info": null,
     "isvisible": true,
-    "kuid": "c22cb537ed0c485b9191e88ec36a18d5",
+    "kuid": "bd6c1ee01df044cc9cdc53e0aa4bb1da",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "headerContainer",
-    "pf": "Map1",
+    "parent": "Menu",
+    "pf": "Home",
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
